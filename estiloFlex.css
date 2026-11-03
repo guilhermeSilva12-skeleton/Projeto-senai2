@@ -7,7 +7,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #1e293b;   /* fundo escuro */
+    background-image: linear-gradient( to bottom, #a70f0f, rgb(97, 25, 25));  /* fundo escuro */
     color: #f8fafc;              /* texto claro = bom contraste */
     min-height: 100vh;
 
@@ -27,9 +27,10 @@ header {
 }
 
 h1 {
-    font-size: 2rem;
+    font-size: 3rem;
     color: #facc15;
     text-align: center;
+    font-family: fantasy;
 }
 
 /* ===== Conteúdo principal ===== */
@@ -47,7 +48,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #ffffff;
+    background-color: #d6b333;
     border-radius: 12px;
     padding: 10px;
 }
@@ -106,18 +107,18 @@ main {
     font-weight: bold;
     border: none;
     border-radius: 8px;
-    background-color: #3b82f6;
+    background-color: #d2a904;
     color: #ffffff;
     cursor: pointer;
 }
 
 .letra:hover {
-    background-color: #2563eb;
+    background-color: #b35606;
 }
 
 /* Botão já clicado (desativado) */
 .letra:disabled {
-    background-color: #64748b;
+    background-color: #8e1b02;
     color: #cbd5e1;
     cursor: not-allowed;
 }
@@ -134,7 +135,7 @@ main {
     font-weight: bold;
     border: none;
     border-radius: 8px;
-    background-color: #facc15;
+    background-color: #cfc105;
     color: #1e293b;
     cursor: pointer;
 }
