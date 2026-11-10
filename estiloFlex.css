@@ -7,7 +7,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-image: linear-gradient( to bottom, #a70f0f, rgb(97, 25, 25));  /* fundo escuro */
+    background-image: linear-gradient( to bottom, #a70f0f, rgb(97, 25, 25));  
     color: #f8fafc;              /* texto claro = bom contraste */
     min-height: 100vh;
 
